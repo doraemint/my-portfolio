@@ -1,24 +1,24 @@
 "use client";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
+// import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
-const info = [
-  {
-    icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "(+66) 63-446-8506",
-  },
-  {
-    icon: <FaEnvelope />,
-    title: "Email",
-    description: "anthika.ji@gmail.com",
-  },
-  {
-    icon: <FaMapMarkedAlt />,
-    title: "Address",
-    description: "Huai Khwang, Bangkok, Thailand 10310",
-  },
-];
+// const info = [
+//   {
+//     icon: <FaPhoneAlt />,
+//     title: "Phone",
+//     description: "(+66) 63-446-8506",
+//   },
+//   {
+//     icon: <FaEnvelope />,
+//     title: "Email",
+//     description: "anthika.ji@gmail.com",
+//   },
+//   {
+//     icon: <FaMapMarkedAlt />,
+//     title: "Address",
+//     description: "Huai Khwang, Bangkok, Thailand 10310",
+//   },
+// ];
 import { motion } from "framer-motion";
 import { Input } from "@/components/ui/input";
 import {
