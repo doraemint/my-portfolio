@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    @apply text-[36px] lg:text-[40px] xl:text-[64px] font-bold leading-[120%];
+  }
+  h2 {
+    @apply text-[30px] lg:text-[36px] xl:text-[48px] font-bold leading-[110%];
+  }
+  h3 {
+    @apply text-[24px] lg:text-[30px] xl:text-[40px] font-bold leading-[110%];
+  }
+  h4 {
+    @apply text-[20px] lg:text-[26px] xl:text-[32px] font-bold leading-[110%];
+  }
+  h5 {
+    @apply text-[16px] lg:text-[20px] xl:text-[24px] font-bold leading-[110%];
+  }
+  h6 {
+    @apply text-[14px] lg:text-[16px] xl:text-[20px] font-bold leading-[110%];
+  }
+
+  /* paragraph-xl */
+  .paragraph-xl-bold {
+    @apply text-[18px] font-bold leading-[27px];
+  }
+  .paragraph-xl-semibold {
+    @apply text-[18px] font-semibold leading-[27px];
+  }
+  .paragraph-xl-medium {
+    @apply text-[18px] font-medium leading-[25.2px];
+  }
+  .paragraph-xl-regular {
+    @apply text-[18px] leading-[25.2px];
+  }
+
+  /* paragraph-l */
+  .paragraph-l-bold {
+    @apply text-[16px] font-bold leading-[24px];
+  }
+  .paragraph-l-semibold {
+    @apply text-[16px] font-semibold leading-[24px];
+  }
+  .paragraph-l-medium {
+    @apply text-[16px] font-medium leading-[22.4px];
+  }
+  .paragraph-l-regular {
+    @apply text-[16px] leading-[22.4px];
+  }
+
+  /* paragraph-m */
+  .paragraph-m-bold {
+    @apply text-[14px] font-bold leading-[21px];
+  }
+  .paragraph-m-semibold {
+    @apply text-[14px] font-semibold leading-[21px];
+  }
+  .paragraph-m-medium {
+    @apply text-[14px] font-medium leading-[19.6px];
+  }
+  .paragraph-m-regular {
+    @apply text-[14px] leading-[19.6px];
+  }
+
+  /* subtitle-1 */
+  .subtitle-1-bold {
+    @apply text-[40px] font-bold leading-[60px];
+  }
+  .subtitle-1-semibold {
+    @apply text-[40px] font-semibold leading-[60px];
+  }
+  .subtitle-1-medium {
+    @apply text-[40px] font-medium leading-[56px];
+  }
+  .subtitle-1-regular {
+    @apply text-[40px] leading-[56px];
+  }
+
+  /* subtitle-2 */
+  .subtitle-2-bold {
+    @apply text-[32px] font-bold leading-[48px];
+  }
+  .subtitle-2-semibold {
+    @apply text-[32px] font-semibold leading-[48px];
+  }
+  .subtitle-2-medium {
+    @apply text-[32px] font-medium leading-[44.8px];
+  }
+  .subtitle-2-regular {
+    @apply text-[32px] leading-[44.8px];
+  }
+
+  /* subtitle-3 */
+  .subtitle-3-bold {
+    @apply text-[24px] font-bold leading-[36px];
+  }
+  .subtitle-3-semibold {
+    @apply text-[24px] font-semibold leading-[36px];
+  }
+  .subtitle-3-medium {
+    @apply text-[24px] font-medium leading-[33.6px];
+  }
+  .subtitle-3-regular {
+    @apply text-[24px] leading-[33.6px];
+  }
+}
