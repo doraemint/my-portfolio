@@ -1,7 +1,7 @@
 import Link from "next/link";
 // Components
 import Nav from "./nav";
-import { Button } from "../button";
+// import { Button } from "../button";
 import MobileNav from "./mobileNav";
 
 const Header = () => {
